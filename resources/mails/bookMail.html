@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
+	<title>New Client</title>
+	<style type="text/css">
+				*{
+					margin: 0;
+					padding: 0;
+					box-sizing: border-box;
+					text-decoration: none; 
+	 				text-transform: capitalize;
+	 				outline: none; border: none;
+				}
+				html{
+					background: #dadae6;
+					scroll-behavior: smooth;
+					overflow-x: hidden;
+				}
+				html::-webkit-scrollbar{
+					width: .8rem;
+				}
+				html::-webkit-scrollbar-track{
+					background: transparent;
+				}
+				html::-webkit-scrollbar-thumb{
+					background: #141466;
+					border-radius: 5rem;
+				}
+				header{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: white;
+					background: #141466;
+					width: 100%;
+					height: 5rem;
+					box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+				}
+				header h3{
+					padding: 20px;
+					align-items: center;
+					font-size: 25px;
+					font-weight: 600;
+				}
+				header h3 span{
+					color: #1181b2;
+				}
+				.container{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					margin-top: 10%;
+					font-size: 18px;
+					padding: 15px;
+				}
+				.btn{
+					color: #fff;
+					background: #141466;
+					padding: 10px 40px 10px 40px;
+					border-radius: 20px;
+					text-align: center;
+					font-weight: 600;
+					box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+				}
+				footer{
+					background: #141466;
+					text-align: center;
+				}
+				footer .share{
+					padding: 1rem 0;
+				}
+				footer .share a{
+					height: 1rem;
+					width: 1rem;
+					line-height: 1rem;
+					font-size: 1rem;
+					color: #dadae6;
+					margin: .3rem;
+					border-radius: 50%;
+				}
+				.info{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					flex-wrap: wrap;
+					gap: 2rem;
+					font-size: 1rem;
+					margin: 5px 0px 10px 0px;
+				}
+				.info .infoBox a{
+					color: #dadae6;
+				}
+				.credits{
+					color: #dadae6;
+					padding-top: 1rem;
+					padding-bottom: 1rem;
+				}
+			</style>
+</head>
+<body>
+	<header>
+			<h3>Code<span>ronald</span></h3>
+	</header>
+	<div class="container">
+
+	<div>
+		<p style="font-weight: 600;">A minute Ronald😋,</p>
+		<br>
+		<br>
+		<p>
+			You got a new client:<br><br>
+			<p><strong>Name: </strong>'.$name' </p>
+			<p><strong>Service: </strong>'.$service' </p>
+			<p><strong>Description: </strong>'.$description' </p>
+			<p><strong>Email: </strong>'.$email' </p>
+			<p><strong>Phone Number: </strong>'.$phone' </p>
+			<p><strong>Time: </strong>'.$time' </p>
+		</p><hr><br>
+		<p>"Remember our dream sir, Follow your heart❤ and keep trying."</p>
+	</div>
+	</div>
+	<hr>
+	<footer>
+		<div class="share">
+		<a href="https://www.facebook.com/matekwaronald" class="fab fa-facebook-f"></a>
+		<a href="#" class="fab fa-twitter"></a>
+		<a href="https://www.instagram.com/coderonald/" class="fab fa-instagram"></a>
+		<a href="#" class="fab fa-linkedin"></a>
+		<a href="#" class="fab fa-pinterest"></a>
+		<a href="#" class="fab fa-youtube"></a>
+	</div>
+	<div class="info">
+		<div class="infoBox">
+			<a href="">coderonald.com</a>
+		</div>
+		<div class="infoBox">
+			<a href="">Terms and condition</a>
+		</div>
+		<div class="infoBox">
+			<a href="">Unsubscribe</a>
+		</div>
+	</div>
+	<div class="credits">
+		 &copy; 2021 coderonald.com | all rights reserved.
+	</div>
+	</footer>
+</body>
+</html>

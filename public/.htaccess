@@ -1,0 +1,13 @@
+RewriteEngine on
+
+#Rewriting for index.php
+RewriteRule ^home index.php [NC,L]
+
+#Rewriting for watch.php
+RewriteRule ^videos watch.php [NC,L]
+
+#Rewriting for feeds.php
+RewriteRule ^newsfeeds feeds.php [NC,L]
+
+#Rewriting for terms.php
+RewriteRule ^terms terms.php [NC,L]
